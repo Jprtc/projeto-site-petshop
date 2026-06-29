@@ -49,3 +49,13 @@
     transform: scale(.97);
 
 }
+
+.buttonTags.ativo{
+
+    background: #6d28d9;
+
+    color: white;
+
+    box-shadow: 0 6px 20px rgba(109,40,217,.3);
+
+}

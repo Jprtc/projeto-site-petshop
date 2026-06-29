@@ -1,15 +1,17 @@
 import './ButtonTags.css';
 
-function ButtonTags({ tags, funcaoSetag }) {
+function ButtonTags({ tags, funcaoSetag, tagSelecionada }) {
 
     return (
         <div className="Tags">
-            {console.log(tags)}
+
             {tags.map(tag => (
 
                 <button
                     key={tag}
-                    className="buttonTags"
+                    className={`buttonTags ${
+                        tagSelecionada === tag ? "ativo" : ""
+                    }`}
                     onClick={() => funcaoSetag(tag)}
                 >
                     {tag}

@@ -18,7 +18,11 @@ function DicsParts(){
         <section className="dicasContainer">
             <h1 className="TituloDicas">Dicas de quem entende!</h1>
 
-            <ButtonTags tags={tags} funcaoSetag={setTagSelecionada}/>
+            <ButtonTags 
+                tags={tags}
+                funcaoSetag={setTagSelecionada}
+                tagSelecionada={tagSelecionada}
+            />
             
             <div className="cardsDicas">
                 {tagFiltrada.map(card => (
