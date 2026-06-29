@@ -1,0 +1,77 @@
+.dicasContainer{
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 70px 40px;
+
+}
+
+.TituloDicas{
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+    color: #5f0257;
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+.cardsDicas{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+
+}
+
+/* Tablet */
+
+@media (max-width: 992px){
+
+    .dicasContainer{
+
+        padding: 50px 25px;
+
+    }
+
+    .TituloDicas{
+
+        font-size: 2.3rem;
+
+    }
+
+}
+
+/* Celular */
+
+@media (max-width: 768px){
+
+    .dicasContainer{
+
+        padding: 40px 15px;
+
+    }
+
+    .TituloDicas{
+
+        font-size: 1.8rem;
+
+        margin-bottom: 25px;
+
+    }
+
+    .cardsDicas{
+
+        gap: 20px;
+
+    }
+
+}
