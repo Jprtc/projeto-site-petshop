@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
 .dicasContainer{
 
     max-width: 1400px;
@@ -10,6 +12,7 @@
 
 .TituloDicas{
 
+    font-family: "Google Sans", sans-serif;
     font-size: 2.8rem;
 
     font-weight: 700;
