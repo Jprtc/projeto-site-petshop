@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.dicasContainer{
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 70px 40px;
+
+}
+
+.TituloDicas{
+
+    font-family: "Nunito", sans-serif;
+
+    font-size: 2.8rem;
+
+    font-weight: 700;
+
+    color: #4B1F8A;
+
+    text-align: center;
+
+    margin-bottom: 35px;
+
+}
+
+.cardsDicas{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+/* Tablet */
+
+@media (max-width: 992px){
+
+    .dicasContainer{
+
+        padding: 50px 25px;
+
+    }
+
+    .TituloDicas{
+
+        font-size: 2.3rem;
+
+    }
+
+}
+
+/* Celular */
+
+@media (max-width: 768px){
+
+    .dicasContainer{
+
+        padding: 40px 15px;
+
+    }
+
+    .TituloDicas{
+
+        font-size: 1.8rem;
+
+        margin-bottom: 25px;
+
+    }
+
+    .cardsDicas{
+
+        gap: 20px;
+
+    }
+
+}

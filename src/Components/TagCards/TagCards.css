@@ -1,0 +1,86 @@
+
+
+.CardTag{
+
+    width: 200px;
+
+    height: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background: white;
+
+    border: 1px solid #e4e4e4;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.CardTag:hover{
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+}
+
+.CardTag img{
+
+    width: 100%;
+
+    height: 170px;
+
+    object-fit: cover;
+
+}
+
+.CardTag h2{
+
+    padding: 18px;
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    color: #333;
+
+    line-height: 1.4;
+
+    text-align: left;
+
+    flex: 1;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 5;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+}
+
+.CardTag h3{
+
+    padding: 18px;
+
+    margin-top: auto;
+
+    font-size: 20px;
+
+    color: #6d28d9;
+
+    font-weight: 700;
+
+    text-align: left;
+
+}
