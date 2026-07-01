@@ -1,0 +1,119 @@
+.site-header {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 14px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  font-size: 50px;
+  font-weight: 950;
+  color: #5c2483;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.logo-heart {
+  color: #ff5a8a;
+}
+
+.header-cep {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+  font-size: 18px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-cep .cep-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.header-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #f5f5f7;
+  border-radius: 24px;
+  padding: 6px 6px 6px 18px;
+  max-width: 480px;
+}
+
+.header-search input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 18px;
+}
+
+.header-search button {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: #5c2483;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header-search button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  color: #333;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-action svg {
+  width: 20px;
+  height: 20px;
+}
+
+.header-cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-cart svg {
+  width: 22px;
+  height: 22px;
+}
+
+.header-account {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 18px;
+  color: #333;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-account svg {
+  width: 16px;
+  height: 16px;
+}
