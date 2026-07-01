@@ -18,12 +18,12 @@ export default function Dropdown() {
           }}
           onMouseLeave={() => setActiveCategory(null)}
         >
-          {/* TOP LEVEL */}
+
           <div className="menu-link">
             {cat.categoria} ▾
           </div>
 
-          {/* MEGA MENU */}
+  
           {activeCategory === cat.id && cat.subcategorias && (
             <div className="mega-dropdown">
 
@@ -40,7 +40,7 @@ export default function Dropdown() {
                 ))}
               </div>
 
-              {/* RIGHT AREA (departments) */}
+
               <div className="mega-right">
                 {cat.subcategorias[activeSub]?.departamentos?.map((dep, i) => (
                   <div key={i} className="mega-column">
