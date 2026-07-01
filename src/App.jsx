@@ -1,8 +1,9 @@
 
 import './App.css'
 import Footer from './Widgets/Footer/Footer'
-import Header from './Widgets/Header/header'
+import Header from './Widgets/Header/Header'
 import MainBanner from './Widgets/MainBanner/MainBanner'
+import SecondBanner from './Widgets/SecondBanner/SecondBanner'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
     <Header/>
       <MainBanner/>
+      <SecondBanner/>
     <Footer/>
     </>
   )
