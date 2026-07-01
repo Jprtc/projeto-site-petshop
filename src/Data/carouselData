@@ -1,0 +1,76 @@
+import carrossel0 from "../assets/carrossel0.png";
+import carrossel1 from"../assets/carrossel1.png";
+import carrossel2 from"../assets/carrossel2.png";
+import carrossel3 from"../assets/carrossel3.png";
+import carrossel4 from"../assets/carrossel4.png";
+import carrossel5 from"../assets/carrossel5.gif";
+import carrossel6 from"../assets/carrossel6.png";
+import carrossel7 from"../assets/carrossel7.png";
+import carrossel8 from"../assets/carrossel8.gif";
+import carrossel9 from"../assets/carrossel9.gif";
+import carrossel10 from"../assets/carrossel10.png";
+import carrossel11 from"../assets/carrossel11.png";
+import carrossel12 from"../assets/carrossel12.gif";
+import carrossel13 from"../assets/carrossel13.gif";
+import carrossel14 from"../assets/carrossel14.png";
+
+export const carouselImages = [{
+id:1,
+image:carrossel0
+},
+{
+id:2,
+image:carrossel1
+},
+{
+id:3,
+image:carrossel2
+},
+{
+id:4,
+image:carrossel3
+},
+{
+id:5,
+image:carrossel4
+},
+{
+id:6,
+image:carrossel5
+},
+{
+id:7,
+image:carrossel6
+},
+{
+id:8,
+image:carrossel7
+},
+{
+id:9,
+image:carrossel8
+},
+{
+id:10,
+image:carrossel9
+},
+{
+id:11,
+image:carrossel10
+},
+{
+id:12,
+image:carrossel11
+},
+{
+id:13,
+image:carrossel12
+},
+{
+id:14,
+image:carrossel13
+},
+{
+id:15,
+image:carrossel14
+}]
