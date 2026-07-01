@@ -111,7 +111,7 @@
 }
 
 .carousel-index-active{
-    background:#5c2483;
+    background:#5c2483!important;
     transform:scale(1.3);
 }
 .carousel-index{
