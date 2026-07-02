@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .CardTag{
 
@@ -46,6 +46,8 @@
 
 .CardTag h2{
 
+    font-family: "Nunito", sans-serif;
+
     padding: 18px;
 
     font-size: 22px;
@@ -71,6 +73,8 @@
 
 .CardTag h3{
 
+    font-family: "Nunito", sans-serif;
+    
     padding: 18px;
 
     margin-top: auto;
