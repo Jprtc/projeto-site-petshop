@@ -1,13 +1,18 @@
 import "./Header.css";
 import Dropdown from '../../Components/Dropdown';
 import React, { useState } from "react";
+import logoPetlove from "../../assets/petlove-logo-transparent.png";
 
 function Header() {
   return (
     <header className="site-header">
       <div className="header-top">
         <div className="header-logo">
-          petlove<span className="logo-heart">♥</span>
+        <img
+        src={logoPetlove}
+        alt="Petlove"
+        className="logo-petlove"
+  />
         </div>
 
         <div className="header-cep">
@@ -59,6 +64,58 @@ function Header() {
           </svg>
         </div>
       </div>
+
+<div className="topCards">
+
+  <div className="topCard destaque">
+    <div className="icone">🤝</div>
+
+    <div className="texto">
+      <h4>Conheça o Clube Petlove</h4>
+      <p>Economize até R$ 300/mês + frete grátis + Stix em dobro + brindes exclusivos</p>
+    </div>
+
+    <button>☝</button>
+  </div>
+
+<div className="topCard">
+    <div className="icone">❤️</div>
+
+    <div className="texto">
+      <h4>E os planos de saúde pet?</h4>
+      <p>Uma vida mais longa e saudável para o seu pet</p>
+    </div>
+
+    <button>☝</button>
+  </div>
+
+  <div className="topCard">
+    <div className="icone">🎟️</div>
+
+    <div className="texto">
+      <h4>Que tal 20% OFF em serviços pro seu pet?</h4>
+      <p>Economize em banho, creche, fisioterapia, acupuntura e mais</p>
+    </div>
+
+    <button>☝</button>
+  </div>
+
+</div>
+
+<div className="menuCategorias">
+
+  <button>Plano de saúde</button>
+  <button>Clube Petlove</button>
+  <button>Serviços</button>
+  <button>Recomendados</button>
+  <button>Lojas</button>
+  <button>Marcas exclusivas</button>
+
+  <button className="setaCategoria">
+    →
+  </button>
+
+</div>
 
       <Dropdown />
     </header>

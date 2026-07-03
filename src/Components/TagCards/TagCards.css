@@ -24,24 +24,31 @@
 
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
 
+    opacity: 5;
+    transition: opacity .3s ease;
+
 }
 
 .CardTag:hover{
 
-    transform: translateY(-6px);
-
-    box-shadow: 0 10px 25px rgba(0,0,0,.15);
-
+    transform: translateY(-8px);
+    opacity: .5;
+    box-shadow: 0 15px 30px rgba(0,0,0,.18);
 }
 
 .CardTag img{
-
     width: 100%;
+    display: block;
 
-    height: 170px;
+    transition: transform .35s ease;
+}
 
-    object-fit: cover;
+.CardTag:hover img{
+    transform: scale(1.08);
+}
 
+.CardTag:active{
+    transform: scale(.98);
 }
 
 .CardTag h2{
@@ -51,6 +58,8 @@
     padding: 18px;
 
     font-size: 22px;
+
+    font-family: "Nunito", sans-serif;
 
     font-weight: 600;
 
@@ -65,6 +74,7 @@
     display: -webkit-box;
 
     -webkit-line-clamp: 5;
+    line-clamp: 5;
 
     -webkit-box-orient: vertical;
 
@@ -78,6 +88,8 @@
     padding: 18px;
 
     margin-top: auto;
+
+    font-family: "Nunito", sans-serif;
 
     font-size: 20px;
 

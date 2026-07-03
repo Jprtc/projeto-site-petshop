@@ -20,10 +20,14 @@
   align-items: center;
   gap: 4px;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
-.logo-heart {
-  color: #ff5a8a;
+.logo-petlove {
+  width: 200px;
+  height: auto;
+  display: block;
 }
 
 .header-cep {
@@ -34,6 +38,7 @@
   font-size: 18px;
   white-space: nowrap;
   cursor: pointer;
+  font-family: "Nunito", sans-serif;
 }
 
 .header-cep .cep-icon {
@@ -85,6 +90,7 @@
   color: #333;
   white-space: nowrap;
   cursor: pointer;
+  font-family: "Nunito", sans-serif;
 }
 
 .header-action svg {
@@ -111,9 +117,123 @@
   color: #333;
   white-space: nowrap;
   cursor: pointer;
+  font-family: "Nunito", sans-serif;
 }
 
 .header-account svg {
   width: 16px;
   height: 16px;
+}
+
+.topCards{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+
+    width:100%;
+    max-width:1400px; /* aumente esse valor se quiser */
+    margin:30px auto;
+    
+    
+}
+
+.topCard{
+    flex:1;
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    padding: 10px;
+
+    background:#fff;
+
+    border:1px solid #f0d8ff;
+
+    border-radius:10px;
+
+    transition:.3s;
+}
+
+.topCard:hover{
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.destaque{
+    background:#F8E5FF;
+}
+
+.icone{
+    font-size:30px;
+}
+
+.texto h4{
+    color:#5B2BA8;
+    font-size:18px;
+    margin-bottom:5px;
+    font-family: "Nunito", sans-serif;
+}
+
+.texto p{
+    color:#555;
+    font-size:14px;
+    font-family: "Nunito", sans-serif;
+}
+
+.topCard button{
+    margin-left:auto;
+
+    width:40px;
+    height:40px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:white;
+
+    cursor:pointer;
+}
+
+.menuCategorias{
+
+    display:flex;
+    
+    gap:12px;
+
+    margin-top:20px;
+
+    justify-content: center;
+}
+
+.menuCategorias button{
+
+    padding:14px 20px;
+
+    border-radius:12px;
+
+    border:1px solid #edd5ff;
+
+    background:white;
+
+    color:#666;
+
+    font-weight:700;
+    font-family: "Nunito", sans-serif;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    justify-content: center;
+}
+
+.menuCategorias button:hover{
+
+    border-color:#5B2BA8;
+    color:#5B2BA8;
+}
+
+.setaCategoria{
+    width:55px;
 }

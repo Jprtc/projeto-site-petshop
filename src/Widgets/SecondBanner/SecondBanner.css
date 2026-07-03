@@ -144,7 +144,13 @@
   height:12px;
   border-radius:50%;
   background:#fff;
+  cursor: pointer;
+  transition: .3s;
 }
+.indicadores span:hover{
+  transform:scale(1.2);
+}
+
 .indicadores .ativo{
   background:#5B2BA8;
 }

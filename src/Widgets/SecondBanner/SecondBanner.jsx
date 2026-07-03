@@ -52,7 +52,7 @@ export default function SecondBanner() {
 />
               <h3>{card.plano}</h3>
               <p className="beneficio">
-              ☆ {card.descricao}</p>
+              ⭐{card.descricao}</p>
               <h4>{card.preco}</h4>
               <p className="cidade">
               em São Paulo e região
@@ -82,7 +82,8 @@ export default function SecondBanner() {
 
       <div className="indicadores">
         {planos.map((_, i) => (
-          <span key={i} className={i === ativo ? "ativo" : ""}></span>
+          <span key={i} className={i === ativo ? "ativo" : ""} 
+          onClick={() => setAtivo(i)}></span>
         ))}
       </div>
 
