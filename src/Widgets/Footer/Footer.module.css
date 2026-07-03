@@ -1,6 +1,6 @@
 
 .footerGlobal {
-  font-family: 'Inter', 'Montserrat', sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: #FFFFFF;
   border-top: 1px solid #ECECEC;
   color: #555555;
@@ -44,6 +44,7 @@
   font-size: 22px;
   font-weight: 700;
   margin: 0 0 12px 0;
+  font-family: "Nunito", sans-serif;
 }
 
 .helpCard p {
@@ -51,6 +52,7 @@
   color: #E2D9F3;
   line-height: 1.5;
   margin: 0 0 24px 0;
+  font-family: "Nunito", sans-serif;
 }
 
 .btnContact {
@@ -180,6 +182,7 @@
 .storeText {
   display: flex;
   flex-direction: column;
+  font-family: "Nunito", sans-serif;
 }
 
 .storeText span:first-child {
@@ -269,6 +272,7 @@
 
 .trustTitle {
   font-size: 14px;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #2B2B2B;
   text-transform: uppercase;
@@ -294,6 +298,7 @@
   padding: 0 12px;
   color: #555555;
   font-size: 20px;
+  font-family: "Nunito", sans-serif;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -342,6 +347,7 @@
   color: #777777;
   font-size: 14px;
   text-decoration: none;
+  font-family: "Nunito", sans-serif;
   transition: color 0.3s ease;
 }
 
